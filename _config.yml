@@ -71,12 +71,12 @@ flattr_button           :
 telegram_username       :
 vk_id                   :
 #defaults for every post
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /images/site/logo.png
-      author: Steve Baros
+#defaults:
+#  - scope:
+#      path: ""
+#    values:
+#      image: /images/site/logo.png
+#      author: Steve Baros
 # Show next and home buttons at the top of posts
 show_page_navigation: true
 
@@ -148,8 +148,8 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-seo-tag
-gems:
-  - jekyll-last-modified-at
+#gems:
+#  - jekyll-last-modified-at
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
