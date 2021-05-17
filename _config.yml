@@ -56,25 +56,15 @@ facebook_comments_number: 10
 # Social icons
 github_username         : stevebaros
 reddit_username         : stevebaros
-bitbucket_username      :
-stackoverflow_id        :
 twitter_username        : stevebaros
 skype_username          :
-steam_nickname          :
-google_plus_id          :
 linkedin_username       : stevebaros
-angellist_username      :
 medium_id               : stevebaros
-bitcoin_url             :
-paypal_url              :
-flattr_button           :
-telegram_username       :
-vk_id                   :
 #defaults for every post
 defaults:
   - scope:
       path: ""
-    values:
+  - values:
       image: /images/site/logo.png
       author: Steve Baros
 # Show next and home buttons at the top of posts
