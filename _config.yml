@@ -59,17 +59,24 @@ reddit_username         : stevebaros
 bitbucket_username      :
 stackoverflow_id        :
 twitter_username        : stevebaros
+skype_username          :
+steam_nickname          :
+google_plus_id          :
 linkedin_username       : stevebaros
 angellist_username      :
 medium_id               : stevebaros
 bitcoin_url             :
+paypal_url              :
+flattr_button           :
+telegram_username       :
+vk_id                   :
 #defaults for every post
-#defaults:
-#  - scope:
-#      path: ""
-#    values:
-#      image: /images/site/logo.png
-#      author: Steve Baros
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/site/logo.png
+      author: Steve Baros
 # Show next and home buttons at the top of posts
 show_page_navigation: true
 
@@ -82,7 +89,10 @@ show_sharing_icons: true
 share_email: true
 share_facebook: true
 share_twitter: true
+share_googleplus: false
 share_linkedin: true
+share_digg: false
+share_tumblr: false
 share_reddit: true
 share_stumbleupon: false
 share_hackernews: false
@@ -137,9 +147,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-#  - jekyll-seo-tag
-#gems:
-#  - jekyll-last-modified-at
+  - jekyll-seo-tag
+gems:
+  - jekyll-last-modified-at
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
