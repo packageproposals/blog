@@ -3,16 +3,11 @@ layout: post
 title: Where are packages stored
 date: 2021-03-17
 summary: | Did you ever wonder where packages for your programming language or framework are stored ?  Well in this article you will know !.
+
 tags: go php java react vue javascript
 categories:
   - Go
   - laravel
-twitterimage: /images/site/logo.png
-image: /images/site/logo.png
-keywords:
-- javascript packages
-- go packages
-- php packages
 ---
 
 
